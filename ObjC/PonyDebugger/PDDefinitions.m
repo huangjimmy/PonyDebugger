@@ -138,6 +138,12 @@ NSDictionary *PDRemoteObjectPropertyTypeDetailsForAttributeDescription(NSAttribu
         case NSObjectIDAttributeType:
             // Undefined.
             break;
+        case NSUUIDAttributeType:
+            // Undefined.
+            break;
+        case NSURIAttributeType:
+            // Undefined.
+            break;
     }
     
     if (!subtype) {
